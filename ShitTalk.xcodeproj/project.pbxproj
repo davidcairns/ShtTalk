@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFCE4D6F1A32EAAC00EC0808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE4D6E1A32EAAC00EC0808 /* main.m */; };
+		DFCE4D721A32EAAC00EC0808 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE4D711A32EAAC00EC0808 /* AppDelegate.m */; };
+		DFCE4D751A32EAAC00EC0808 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE4D741A32EAAC00EC0808 /* ViewController.m */; };
+		DFCE4D781A32EAAC00EC0808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCE4D761A32EAAC00EC0808 /* Main.storyboard */; };
+		DFCE4D7A1A32EAAC00EC0808 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCE4D791A32EAAC00EC0808 /* Images.xcassets */; };
+		DFCE4D7D1A32EAAC00EC0808 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCE4D7B1A32EAAC00EC0808 /* LaunchScreen.xib */; };
+		DFCE4D891A32EAAD00EC0808 /* ShitTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE4D881A32EAAD00EC0808 /* ShitTalkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFCE4D831A32EAAD00EC0808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFCE4D611A32EAAC00EC0808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFCE4D681A32EAAC00EC0808;
+			remoteInfo = ShitTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFCE4D691A32EAAC00EC0808 /* ShitTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShitTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCE4D6D1A32EAAC00EC0808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCE4D6E1A32EAAC00EC0808 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFCE4D701A32EAAC00EC0808 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFCE4D711A32EAAC00EC0808 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFCE4D731A32EAAC00EC0808 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFCE4D741A32EAAC00EC0808 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFCE4D771A32EAAC00EC0808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFCE4D791A32EAAC00EC0808 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFCE4D7C1A32EAAC00EC0808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DFCE4D821A32EAAD00EC0808 /* ShitTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShitTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCE4D871A32EAAD00EC0808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCE4D881A32EAAD00EC0808 /* ShitTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShitTalkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFCE4D661A32EAAC00EC0808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCE4D7F1A32EAAD00EC0808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFCE4D601A32EAAC00EC0808 = {
+			isa = PBXGroup;
+			children = (
+				DFCE4D6B1A32EAAC00EC0808 /* ShitTalk */,
+				DFCE4D851A32EAAD00EC0808 /* ShitTalkTests */,
+				DFCE4D6A1A32EAAC00EC0808 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFCE4D6A1A32EAAC00EC0808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFCE4D691A32EAAC00EC0808 /* ShitTalk.app */,
+				DFCE4D821A32EAAD00EC0808 /* ShitTalkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFCE4D6B1A32EAAC00EC0808 /* ShitTalk */ = {
+			isa = PBXGroup;
+			children = (
+				DFCE4D701A32EAAC00EC0808 /* AppDelegate.h */,
+				DFCE4D711A32EAAC00EC0808 /* AppDelegate.m */,
+				DFCE4D731A32EAAC00EC0808 /* ViewController.h */,
+				DFCE4D741A32EAAC00EC0808 /* ViewController.m */,
+				DFCE4D761A32EAAC00EC0808 /* Main.storyboard */,
+				DFCE4D791A32EAAC00EC0808 /* Images.xcassets */,
+				DFCE4D7B1A32EAAC00EC0808 /* LaunchScreen.xib */,
+				DFCE4D6C1A32EAAC00EC0808 /* Supporting Files */,
+			);
+			path = ShitTalk;
+			sourceTree = "<group>";
+		};
+		DFCE4D6C1A32EAAC00EC0808 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFCE4D6D1A32EAAC00EC0808 /* Info.plist */,
+				DFCE4D6E1A32EAAC00EC0808 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFCE4D851A32EAAD00EC0808 /* ShitTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFCE4D881A32EAAD00EC0808 /* ShitTalkTests.m */,
+				DFCE4D861A32EAAD00EC0808 /* Supporting Files */,
+			);
+			path = ShitTalkTests;
+			sourceTree = "<group>";
+		};
+		DFCE4D861A32EAAD00EC0808 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFCE4D871A32EAAD00EC0808 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFCE4D681A32EAAC00EC0808 /* ShitTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCE4D8C1A32EAAD00EC0808 /* Build configuration list for PBXNativeTarget "ShitTalk" */;
+			buildPhases = (
+				DFCE4D651A32EAAC00EC0808 /* Sources */,
+				DFCE4D661A32EAAC00EC0808 /* Frameworks */,
+				DFCE4D671A32EAAC00EC0808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShitTalk;
+			productName = ShitTalk;
+			productReference = DFCE4D691A32EAAC00EC0808 /* ShitTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFCE4D811A32EAAD00EC0808 /* ShitTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCE4D8F1A32EAAD00EC0808 /* Build configuration list for PBXNativeTarget "ShitTalkTests" */;
+			buildPhases = (
+				DFCE4D7E1A32EAAD00EC0808 /* Sources */,
+				DFCE4D7F1A32EAAD00EC0808 /* Frameworks */,
+				DFCE4D801A32EAAD00EC0808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFCE4D841A32EAAD00EC0808 /* PBXTargetDependency */,
+			);
+			name = ShitTalkTests;
+			productName = ShitTalkTests;
+			productReference = DFCE4D821A32EAAD00EC0808 /* ShitTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFCE4D611A32EAAC00EC0808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "David Cairns";
+				TargetAttributes = {
+					DFCE4D681A32EAAC00EC0808 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DFCE4D811A32EAAD00EC0808 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DFCE4D681A32EAAC00EC0808;
+					};
+				};
+			};
+			buildConfigurationList = DFCE4D641A32EAAC00EC0808 /* Build configuration list for PBXProject "ShitTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFCE4D601A32EAAC00EC0808;
+			productRefGroup = DFCE4D6A1A32EAAC00EC0808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFCE4D681A32EAAC00EC0808 /* ShitTalk */,
+				DFCE4D811A32EAAD00EC0808 /* ShitTalkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFCE4D671A32EAAC00EC0808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCE4D781A32EAAC00EC0808 /* Main.storyboard in Resources */,
+				DFCE4D7D1A32EAAC00EC0808 /* LaunchScreen.xib in Resources */,
+				DFCE4D7A1A32EAAC00EC0808 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCE4D801A32EAAD00EC0808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFCE4D651A32EAAC00EC0808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCE4D751A32EAAC00EC0808 /* ViewController.m in Sources */,
+				DFCE4D721A32EAAC00EC0808 /* AppDelegate.m in Sources */,
+				DFCE4D6F1A32EAAC00EC0808 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCE4D7E1A32EAAD00EC0808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCE4D891A32EAAD00EC0808 /* ShitTalkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFCE4D841A32EAAD00EC0808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFCE4D681A32EAAC00EC0808 /* ShitTalk */;
+			targetProxy = DFCE4D831A32EAAD00EC0808 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFCE4D761A32EAAC00EC0808 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCE4D771A32EAAC00EC0808 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFCE4D7B1A32EAAC00EC0808 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCE4D7C1A32EAAC00EC0808 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFCE4D8A1A32EAAD00EC0808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFCE4D8B1A32EAAD00EC0808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFCE4D8D1A32EAAD00EC0808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShitTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFCE4D8E1A32EAAD00EC0808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShitTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFCE4D901A32EAAD00EC0808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShitTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShitTalk.app/ShitTalk";
+			};
+			name = Debug;
+		};
+		DFCE4D911A32EAAD00EC0808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShitTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShitTalk.app/ShitTalk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFCE4D641A32EAAC00EC0808 /* Build configuration list for PBXProject "ShitTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCE4D8A1A32EAAD00EC0808 /* Debug */,
+				DFCE4D8B1A32EAAD00EC0808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFCE4D8C1A32EAAD00EC0808 /* Build configuration list for PBXNativeTarget "ShitTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCE4D8D1A32EAAD00EC0808 /* Debug */,
+				DFCE4D8E1A32EAAD00EC0808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFCE4D8F1A32EAAD00EC0808 /* Build configuration list for PBXNativeTarget "ShitTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCE4D901A32EAAD00EC0808 /* Debug */,
+				DFCE4D911A32EAAD00EC0808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFCE4D611A32EAAC00EC0808 /* Project object */;
+}
