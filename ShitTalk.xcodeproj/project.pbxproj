@@ -7,13 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF2A73591A33B15900E63D5C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2A73581A33B15900E63D5C /* CoreLocation.framework */; };
+		DF2A735B1A33CEB100E63D5C /* SHTTALK@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A735A1A33CEB100E63D5C /* SHTTALK@2x.png */; };
+		DF2A735E1A33D23E00E63D5C /* friends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A735C1A33D23E00E63D5C /* friends@2x.png */; };
+		DF2A735F1A33D23E00E63D5C /* celebs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A735D1A33D23E00E63D5C /* celebs@2x.png */; };
+		DF2A73621A33D2B400E63D5C /* STFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2A73611A33D2B400E63D5C /* STFriendsViewController.m */; };
+		DF2A73651A33D2BE00E63D5C /* STCelebsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2A73641A33D2BE00E63D5C /* STCelebsViewController.m */; };
+		DF2A73721A33DA7400E63D5C /* ANGELINAJOLIE@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A73661A33DA7400E63D5C /* ANGELINAJOLIE@2x.png */; };
+		DF2A73731A33DA7400E63D5C /* berniemadoff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A73671A33DA7400E63D5C /* berniemadoff@2x.png */; };
+		DF2A73741A33DA7400E63D5C /* bettywhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A73681A33DA7400E63D5C /* bettywhite@2x.png */; };
+		DF2A73751A33DA7400E63D5C /* billclinton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A73691A33DA7400E63D5C /* billclinton@2x.png */; };
+		DF2A73761A33DA7400E63D5C /* carlos mencia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A736A1A33DA7400E63D5C /* carlos mencia@2x.png */; };
+		DF2A73771A33DA7400E63D5C /* carrottop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A736B1A33DA7400E63D5C /* carrottop@2x.png */; };
+		DF2A73781A33DA7400E63D5C /* chrisbosh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A736C1A33DA7400E63D5C /* chrisbosh@2x.png */; };
+		DF2A73791A33DA7400E63D5C /* icecube@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A736D1A33DA7400E63D5C /* icecube@2x.png */; };
+		DF2A737A1A33DA7400E63D5C /* rachaelmcadams@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A736E1A33DA7400E63D5C /* rachaelmcadams@2x.png */; };
+		DF2A737B1A33DA7400E63D5C /* taylorswift@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A736F1A33DA7400E63D5C /* taylorswift@2x.png */; };
+		DF2A737C1A33DA7400E63D5C /* tinafey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A73701A33DA7400E63D5C /* tinafey@2x.png */; };
+		DF2A737D1A33DA7400E63D5C /* tonyromo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A73711A33DA7400E63D5C /* tonyromo@2x.png */; };
+		DF2A73821A33DCB900E63D5C /* STTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2A73811A33DCB900E63D5C /* STTransitionViewController.m */; };
+		DF2A73841A33E63B00E63D5C /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A73831A33E63B00E63D5C /* heart@2x.png */; };
+		DF2A73861A33FF6500E63D5C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A73851A33FF6500E63D5C /* Icon.png */; };
+		DF2A73891A3500B500E63D5C /* STCelebTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2A73881A3500B500E63D5C /* STCelebTableViewCell.m */; };
+		DF2A738B1A35046400E63D5C /* verified check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A738A1A35046400E63D5C /* verified check@2x.png */; };
+		DF2A73921A350E4700E63D5C /* friendsShtTalkElement@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A73901A350E4700E63D5C /* friendsShtTalkElement@2x.png */; };
+		DF2A73931A350E4700E63D5C /* VerifiedShtTalkElement@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A73911A350E4700E63D5C /* VerifiedShtTalkElement@2x.png */; };
+		DF2A73951A35114C00E63D5C /* darkSHTTALK@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A73941A35114C00E63D5C /* darkSHTTALK@2x.png */; };
+		DF2A73981A35188600E63D5C /* shttalkbubble-right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A73961A35188600E63D5C /* shttalkbubble-right@2x.png */; };
+		DF2A73991A35188600E63D5C /* shttalkbubble-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2A73971A35188600E63D5C /* shttalkbubble-left@2x.png */; };
 		DFCE4D6F1A32EAAC00EC0808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE4D6E1A32EAAC00EC0808 /* main.m */; };
 		DFCE4D721A32EAAC00EC0808 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE4D711A32EAAC00EC0808 /* AppDelegate.m */; };
-		DFCE4D751A32EAAC00EC0808 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE4D741A32EAAC00EC0808 /* ViewController.m */; };
+		DFCE4D751A32EAAC00EC0808 /* STChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE4D741A32EAAC00EC0808 /* STChatViewController.m */; };
 		DFCE4D781A32EAAC00EC0808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCE4D761A32EAAC00EC0808 /* Main.storyboard */; };
 		DFCE4D7A1A32EAAC00EC0808 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCE4D791A32EAAC00EC0808 /* Images.xcassets */; };
 		DFCE4D7D1A32EAAC00EC0808 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCE4D7B1A32EAAC00EC0808 /* LaunchScreen.xib */; };
 		DFCE4D891A32EAAD00EC0808 /* ShitTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE4D881A32EAAD00EC0808 /* ShitTalkTests.m */; };
+		DFCE4D931A32F07F00EC0808 /* STChatCellLeft.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCE4D921A32F07F00EC0808 /* STChatCellLeft.xib */; };
+		DFCE4D961A32F25900EC0808 /* STChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE4D951A32F25900EC0808 /* STChatCell.m */; };
+		DFCE4D9A1A32FCC800EC0808 /* STChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE4D991A32FCC800EC0808 /* STChatMessage.m */; };
+		DFCE4D9C1A338BB500EC0808 /* STChatCellRight.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCE4D9B1A338BB500EC0808 /* STChatCellRight.xib */; };
+		DFCE4D9F1A33910500EC0808 /* STEmoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE4D9E1A33910500EC0808 /* STEmoteCell.m */; };
+		DFCE4DA21A33911500EC0808 /* STEmoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCE4DA11A33911500EC0808 /* STEmoteCell.xib */; };
+		DFCE4DA81A33AB5A00EC0808 /* STMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCE4DA71A33AB5A00EC0808 /* STMapViewController.m */; };
+		DFCE4DAB1A33ACB500EC0808 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCE4DAA1A33ACB500EC0808 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +63,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF2A73581A33B15900E63D5C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DF2A735A1A33CEB100E63D5C /* SHTTALK@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SHTTALK@2x.png"; sourceTree = "<group>"; };
+		DF2A735C1A33D23E00E63D5C /* friends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friends@2x.png"; sourceTree = "<group>"; };
+		DF2A735D1A33D23E00E63D5C /* celebs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "celebs@2x.png"; sourceTree = "<group>"; };
+		DF2A73601A33D2B400E63D5C /* STFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STFriendsViewController.h; sourceTree = "<group>"; };
+		DF2A73611A33D2B400E63D5C /* STFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STFriendsViewController.m; sourceTree = "<group>"; };
+		DF2A73631A33D2BE00E63D5C /* STCelebsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCelebsViewController.h; sourceTree = "<group>"; };
+		DF2A73641A33D2BE00E63D5C /* STCelebsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCelebsViewController.m; sourceTree = "<group>"; };
+		DF2A73661A33DA7400E63D5C /* ANGELINAJOLIE@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ANGELINAJOLIE@2x.png"; sourceTree = "<group>"; };
+		DF2A73671A33DA7400E63D5C /* berniemadoff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "berniemadoff@2x.png"; sourceTree = "<group>"; };
+		DF2A73681A33DA7400E63D5C /* bettywhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bettywhite@2x.png"; sourceTree = "<group>"; };
+		DF2A73691A33DA7400E63D5C /* billclinton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "billclinton@2x.png"; sourceTree = "<group>"; };
+		DF2A736A1A33DA7400E63D5C /* carlos mencia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carlos mencia@2x.png"; sourceTree = "<group>"; };
+		DF2A736B1A33DA7400E63D5C /* carrottop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carrottop@2x.png"; sourceTree = "<group>"; };
+		DF2A736C1A33DA7400E63D5C /* chrisbosh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chrisbosh@2x.png"; sourceTree = "<group>"; };
+		DF2A736D1A33DA7400E63D5C /* icecube@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icecube@2x.png"; sourceTree = "<group>"; };
+		DF2A736E1A33DA7400E63D5C /* rachaelmcadams@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rachaelmcadams@2x.png"; sourceTree = "<group>"; };
+		DF2A736F1A33DA7400E63D5C /* taylorswift@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taylorswift@2x.png"; sourceTree = "<group>"; };
+		DF2A73701A33DA7400E63D5C /* tinafey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tinafey@2x.png"; sourceTree = "<group>"; };
+		DF2A73711A33DA7400E63D5C /* tonyromo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tonyromo@2x.png"; sourceTree = "<group>"; };
+		DF2A73801A33DCB900E63D5C /* STTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTransitionViewController.h; sourceTree = "<group>"; };
+		DF2A73811A33DCB900E63D5C /* STTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTransitionViewController.m; sourceTree = "<group>"; };
+		DF2A73831A33E63B00E63D5C /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@2x.png"; sourceTree = "<group>"; };
+		DF2A73851A33FF6500E63D5C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DF2A73871A3500B500E63D5C /* STCelebTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCelebTableViewCell.h; sourceTree = "<group>"; };
+		DF2A73881A3500B500E63D5C /* STCelebTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCelebTableViewCell.m; sourceTree = "<group>"; };
+		DF2A738A1A35046400E63D5C /* verified check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "verified check@2x.png"; sourceTree = "<group>"; };
+		DF2A73901A350E4700E63D5C /* friendsShtTalkElement@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friendsShtTalkElement@2x.png"; sourceTree = "<group>"; };
+		DF2A73911A350E4700E63D5C /* VerifiedShtTalkElement@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VerifiedShtTalkElement@2x.png"; sourceTree = "<group>"; };
+		DF2A73941A35114C00E63D5C /* darkSHTTALK@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "darkSHTTALK@2x.png"; sourceTree = "<group>"; };
+		DF2A73961A35188600E63D5C /* shttalkbubble-right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shttalkbubble-right@2x.png"; sourceTree = "<group>"; };
+		DF2A73971A35188600E63D5C /* shttalkbubble-left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shttalkbubble-left@2x.png"; sourceTree = "<group>"; };
 		DFCE4D691A32EAAC00EC0808 /* ShitTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShitTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCE4D6D1A32EAAC00EC0808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFCE4D6E1A32EAAC00EC0808 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFCE4D701A32EAAC00EC0808 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFCE4D711A32EAAC00EC0808 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DFCE4D731A32EAAC00EC0808 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DFCE4D741A32EAAC00EC0808 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFCE4D731A32EAAC00EC0808 /* STChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STChatViewController.h; sourceTree = "<group>"; };
+		DFCE4D741A32EAAC00EC0808 /* STChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STChatViewController.m; sourceTree = "<group>"; };
 		DFCE4D771A32EAAC00EC0808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFCE4D791A32EAAC00EC0808 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DFCE4D7C1A32EAAC00EC0808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DFCE4D821A32EAAD00EC0808 /* ShitTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShitTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCE4D871A32EAAD00EC0808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFCE4D881A32EAAD00EC0808 /* ShitTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShitTalkTests.m; sourceTree = "<group>"; };
+		DFCE4D921A32F07F00EC0808 /* STChatCellLeft.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STChatCellLeft.xib; sourceTree = "<group>"; };
+		DFCE4D941A32F25900EC0808 /* STChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STChatCell.h; sourceTree = "<group>"; };
+		DFCE4D951A32F25900EC0808 /* STChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STChatCell.m; sourceTree = "<group>"; };
+		DFCE4D981A32FCC800EC0808 /* STChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STChatMessage.h; sourceTree = "<group>"; };
+		DFCE4D991A32FCC800EC0808 /* STChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STChatMessage.m; sourceTree = "<group>"; };
+		DFCE4D9B1A338BB500EC0808 /* STChatCellRight.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STChatCellRight.xib; sourceTree = "<group>"; };
+		DFCE4D9D1A33910500EC0808 /* STEmoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STEmoteCell.h; sourceTree = "<group>"; };
+		DFCE4D9E1A33910500EC0808 /* STEmoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STEmoteCell.m; sourceTree = "<group>"; };
+		DFCE4DA11A33911500EC0808 /* STEmoteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STEmoteCell.xib; sourceTree = "<group>"; };
+		DFCE4DA61A33AB5A00EC0808 /* STMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMapViewController.h; sourceTree = "<group>"; };
+		DFCE4DA71A33AB5A00EC0808 /* STMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMapViewController.m; sourceTree = "<group>"; };
+		DFCE4DAA1A33ACB500EC0808 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +127,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF2A73591A33B15900E63D5C /* CoreLocation.framework in Frameworks */,
+				DFCE4DAB1A33ACB500EC0808 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +142,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF2A737E1A33DAEF00E63D5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF2A73941A35114C00E63D5C /* darkSHTTALK@2x.png */,
+				DF2A73901A350E4700E63D5C /* friendsShtTalkElement@2x.png */,
+				DF2A73911A350E4700E63D5C /* VerifiedShtTalkElement@2x.png */,
+				DF2A738A1A35046400E63D5C /* verified check@2x.png */,
+				DF2A73851A33FF6500E63D5C /* Icon.png */,
+				DF2A73831A33E63B00E63D5C /* heart@2x.png */,
+				DF2A73971A35188600E63D5C /* shttalkbubble-left@2x.png */,
+				DF2A73961A35188600E63D5C /* shttalkbubble-right@2x.png */,
+				DF2A735A1A33CEB100E63D5C /* SHTTALK@2x.png */,
+				DF2A735C1A33D23E00E63D5C /* friends@2x.png */,
+				DF2A735D1A33D23E00E63D5C /* celebs@2x.png */,
+				DF2A737F1A33DAF600E63D5C /* celebs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DF2A737F1A33DAF600E63D5C /* celebs */ = {
+			isa = PBXGroup;
+			children = (
+				DF2A73661A33DA7400E63D5C /* ANGELINAJOLIE@2x.png */,
+				DF2A73671A33DA7400E63D5C /* berniemadoff@2x.png */,
+				DF2A73681A33DA7400E63D5C /* bettywhite@2x.png */,
+				DF2A73691A33DA7400E63D5C /* billclinton@2x.png */,
+				DF2A736A1A33DA7400E63D5C /* carlos mencia@2x.png */,
+				DF2A736B1A33DA7400E63D5C /* carrottop@2x.png */,
+				DF2A736C1A33DA7400E63D5C /* chrisbosh@2x.png */,
+				DF2A736D1A33DA7400E63D5C /* icecube@2x.png */,
+				DF2A736E1A33DA7400E63D5C /* rachaelmcadams@2x.png */,
+				DF2A736F1A33DA7400E63D5C /* taylorswift@2x.png */,
+				DF2A73701A33DA7400E63D5C /* tinafey@2x.png */,
+				DF2A73711A33DA7400E63D5C /* tonyromo@2x.png */,
+			);
+			name = celebs;
+			sourceTree = "<group>";
+		};
 		DFCE4D601A32EAAC00EC0808 = {
 			isa = PBXGroup;
 			children = (
+				DF2A73581A33B15900E63D5C /* CoreLocation.framework */,
+				DFCE4DAA1A33ACB500EC0808 /* MapKit.framework */,
 				DFCE4D6B1A32EAAC00EC0808 /* ShitTalk */,
 				DFCE4D851A32EAAD00EC0808 /* ShitTalkTests */,
 				DFCE4D6A1A32EAAC00EC0808 /* Products */,
@@ -81,10 +203,13 @@
 		DFCE4D6B1A32EAAC00EC0808 /* ShitTalk */ = {
 			isa = PBXGroup;
 			children = (
+				DF2A737E1A33DAEF00E63D5C /* Resources */,
 				DFCE4D701A32EAAC00EC0808 /* AppDelegate.h */,
 				DFCE4D711A32EAAC00EC0808 /* AppDelegate.m */,
-				DFCE4D731A32EAAC00EC0808 /* ViewController.h */,
-				DFCE4D741A32EAAC00EC0808 /* ViewController.m */,
+				DF2A73801A33DCB900E63D5C /* STTransitionViewController.h */,
+				DF2A73811A33DCB900E63D5C /* STTransitionViewController.m */,
+				DFCE4DA91A33AB5E00EC0808 /* Map */,
+				DFCE4DA51A33AB2D00EC0808 /* Chat */,
 				DFCE4D761A32EAAC00EC0808 /* Main.storyboard */,
 				DFCE4D791A32EAAC00EC0808 /* Images.xcassets */,
 				DFCE4D7B1A32EAAC00EC0808 /* LaunchScreen.xib */,
@@ -117,6 +242,55 @@
 				DFCE4D871A32EAAD00EC0808 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFCE4D971A32F25F00EC0808 /* Chat Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DFCE4D921A32F07F00EC0808 /* STChatCellLeft.xib */,
+				DFCE4D9B1A338BB500EC0808 /* STChatCellRight.xib */,
+				DFCE4D941A32F25900EC0808 /* STChatCell.h */,
+				DFCE4D951A32F25900EC0808 /* STChatCell.m */,
+			);
+			name = "Chat Cell";
+			sourceTree = "<group>";
+		};
+		DFCE4DA01A33910800EC0808 /* Emote Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DFCE4D9D1A33910500EC0808 /* STEmoteCell.h */,
+				DFCE4D9E1A33910500EC0808 /* STEmoteCell.m */,
+				DFCE4DA11A33911500EC0808 /* STEmoteCell.xib */,
+			);
+			name = "Emote Cell";
+			sourceTree = "<group>";
+		};
+		DFCE4DA51A33AB2D00EC0808 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				DFCE4D731A32EAAC00EC0808 /* STChatViewController.h */,
+				DFCE4D741A32EAAC00EC0808 /* STChatViewController.m */,
+				DFCE4D981A32FCC800EC0808 /* STChatMessage.h */,
+				DFCE4D991A32FCC800EC0808 /* STChatMessage.m */,
+				DFCE4DA01A33910800EC0808 /* Emote Cell */,
+				DFCE4D971A32F25F00EC0808 /* Chat Cell */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		DFCE4DA91A33AB5E00EC0808 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				DFCE4DA61A33AB5A00EC0808 /* STMapViewController.h */,
+				DFCE4DA71A33AB5A00EC0808 /* STMapViewController.m */,
+				DF2A73601A33D2B400E63D5C /* STFriendsViewController.h */,
+				DF2A73611A33D2B400E63D5C /* STFriendsViewController.m */,
+				DF2A73631A33D2BE00E63D5C /* STCelebsViewController.h */,
+				DF2A73641A33D2BE00E63D5C /* STCelebsViewController.m */,
+				DF2A73871A3500B500E63D5C /* STCelebTableViewCell.h */,
+				DF2A73881A3500B500E63D5C /* STCelebTableViewCell.m */,
+			);
+			name = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +373,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFCE4D9C1A338BB500EC0808 /* STChatCellRight.xib in Resources */,
+				DF2A73991A35188600E63D5C /* shttalkbubble-left@2x.png in Resources */,
+				DF2A735E1A33D23E00E63D5C /* friends@2x.png in Resources */,
 				DFCE4D781A32EAAC00EC0808 /* Main.storyboard in Resources */,
+				DF2A735B1A33CEB100E63D5C /* SHTTALK@2x.png in Resources */,
 				DFCE4D7D1A32EAAC00EC0808 /* LaunchScreen.xib in Resources */,
+				DF2A73981A35188600E63D5C /* shttalkbubble-right@2x.png in Resources */,
+				DF2A73781A33DA7400E63D5C /* chrisbosh@2x.png in Resources */,
+				DFCE4D931A32F07F00EC0808 /* STChatCellLeft.xib in Resources */,
+				DF2A73721A33DA7400E63D5C /* ANGELINAJOLIE@2x.png in Resources */,
+				DF2A737B1A33DA7400E63D5C /* taylorswift@2x.png in Resources */,
+				DF2A73921A350E4700E63D5C /* friendsShtTalkElement@2x.png in Resources */,
+				DF2A738B1A35046400E63D5C /* verified check@2x.png in Resources */,
+				DF2A73861A33FF6500E63D5C /* Icon.png in Resources */,
+				DF2A735F1A33D23E00E63D5C /* celebs@2x.png in Resources */,
+				DF2A737D1A33DA7400E63D5C /* tonyromo@2x.png in Resources */,
+				DF2A737C1A33DA7400E63D5C /* tinafey@2x.png in Resources */,
+				DF2A73841A33E63B00E63D5C /* heart@2x.png in Resources */,
+				DF2A73731A33DA7400E63D5C /* berniemadoff@2x.png in Resources */,
 				DFCE4D7A1A32EAAC00EC0808 /* Images.xcassets in Resources */,
+				DF2A73741A33DA7400E63D5C /* bettywhite@2x.png in Resources */,
+				DF2A73751A33DA7400E63D5C /* billclinton@2x.png in Resources */,
+				DFCE4DA21A33911500EC0808 /* STEmoteCell.xib in Resources */,
+				DF2A73771A33DA7400E63D5C /* carrottop@2x.png in Resources */,
+				DF2A73761A33DA7400E63D5C /* carlos mencia@2x.png in Resources */,
+				DF2A73791A33DA7400E63D5C /* icecube@2x.png in Resources */,
+				DF2A73931A350E4700E63D5C /* VerifiedShtTalkElement@2x.png in Resources */,
+				DF2A73951A35114C00E63D5C /* darkSHTTALK@2x.png in Resources */,
+				DF2A737A1A33DA7400E63D5C /* rachaelmcadams@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +419,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFCE4D751A32EAAC00EC0808 /* ViewController.m in Sources */,
+				DF2A73651A33D2BE00E63D5C /* STCelebsViewController.m in Sources */,
+				DFCE4D751A32EAAC00EC0808 /* STChatViewController.m in Sources */,
 				DFCE4D721A32EAAC00EC0808 /* AppDelegate.m in Sources */,
+				DFCE4D9A1A32FCC800EC0808 /* STChatMessage.m in Sources */,
+				DF2A73821A33DCB900E63D5C /* STTransitionViewController.m in Sources */,
+				DFCE4DA81A33AB5A00EC0808 /* STMapViewController.m in Sources */,
+				DFCE4D961A32F25900EC0808 /* STChatCell.m in Sources */,
+				DF2A73621A33D2B400E63D5C /* STFriendsViewController.m in Sources */,
+				DF2A73891A3500B500E63D5C /* STCelebTableViewCell.m in Sources */,
 				DFCE4D6F1A32EAAC00EC0808 /* main.m in Sources */,
+				DFCE4D9F1A33910500EC0808 /* STEmoteCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +552,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShitTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +563,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShitTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +622,7 @@
 				DFCE4D8E1A32EAAD00EC0808 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFCE4D8F1A32EAAD00EC0808 /* Build configuration list for PBXNativeTarget "ShitTalkTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +631,7 @@
 				DFCE4D911A32EAAD00EC0808 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
